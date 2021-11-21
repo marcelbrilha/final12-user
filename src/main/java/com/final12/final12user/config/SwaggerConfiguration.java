@@ -21,7 +21,7 @@ public class SwaggerConfiguration {
 		return new Docket(DocumentationType.SWAGGER_2)
 			.groupName("v1")
 			.select()
-			.apis(RequestHandlerSelectors.basePackage("br.com.tokiomarine.sinistro.cadastroanticorrupcao.web.rest"))
+			.apis(RequestHandlerSelectors.basePackage("com.final12.final12user.web.rest"))
 			.build()
 			.apiInfo(new ApiInfoBuilder().title("Final 12 - Usuário").description("Microsserviço de Usuários - Final 12").build());
 	}
