@@ -23,6 +23,6 @@ public class SwaggerConfiguration {
 			.select()
 			.apis(RequestHandlerSelectors.basePackage("br.com.tokiomarine.sinistro.cadastroanticorrupcao.web.rest"))
 			.build()
-			.apiInfo(new ApiInfoBuilder().title("Final 12 - User").description("Microsserviço de usuários - final 12").build());
+			.apiInfo(new ApiInfoBuilder().title("Final 12 - Usuário").description("Microsserviço de Usuários - Final 12").build());
 	}
 }

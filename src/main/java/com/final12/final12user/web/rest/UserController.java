@@ -21,7 +21,7 @@ public class UserController {
 	@Autowired
 	private UserService userService;
 	
-	@GetMapping(value = "/{id}")
+	@GetMapping(value = "/v1/users/{id}")
 	public ResponseEntity<User> findById(@PathVariable Long id) throws Exception {
 		log.info("Iniciando pesquisa do usuário, id: " + id);
 		return ResponseEntity.ok(this.userService.findById(id));
